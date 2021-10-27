@@ -1,9 +1,8 @@
 body, html{
 	background-color: #fff;
 	font-family: 'Playfair Display', serif;
-	overflow-x: hidden !important;
-	margin: 8px !important;
-	padding: 8px !important;
+	
+	
 }
 
 *{
@@ -73,7 +72,7 @@ body, html{
 	align-items: center;
 	padding: 0 10vw 0 10vw;
 	height: 10vh;
-	padding-top: 180px;
+	padding-top: 260px;
 }
 
 .landingText h1{
@@ -368,7 +367,49 @@ form .user-details .input-box{
 
 /*how it works end*/
 
+/*how it works doctor*/
 
+.work{
+	padding-top: 210px;
+	height: 70px;
+	padding-bottom: 210px;
+}
+
+.prevent .box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+.prevent .box-container .box{
+	flex: 1 1 10rem;
+	border-radius: .3rem;
+	margin: 1rem;
+	padding: .4rem;
+	text-align: center;
+}
+
+.prevent .box-container .box img{
+	height: 6rem;
+	padding: .1rem; 
+}
+.prevent .box-container .box h3{
+	font-size: 2rem;
+}
+.prevent .box-container .box p{
+	font-size: 1.4rem;
+	padding: 1rem;
+}
+.heading {
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+
+/*how it works doctor end */
 
 /*about*/
 /*about end*/
@@ -390,7 +431,9 @@ form .user-details .input-box{
 	align-items: center;
 	padding-bottom: 20px;
 }
-
+.foot {
+	padding-top: 150px;
+}
 
 .footerlinks a{
 	margin: 20px;
