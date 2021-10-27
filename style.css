@@ -323,6 +323,51 @@ form .user-details .input-box{
 .button input{
   float: right;
 }
+/*account end*/
+/*how it works*/
+
+.used{
+	padding-top: 210px;
+	height: 70px;
+	padding-bottom: 210px;
+}
+
+.prevent .box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+.prevent .box-container .box{
+	flex: 1 1 10rem;
+	border-radius: .3rem;
+	margin: 1rem;
+	padding: .4rem;
+	text-align: center;
+}
+
+.prevent .box-container .box img{
+	height: 6rem;
+	padding: .1rem; 
+}
+.prevent .box-container .box h3{
+	font-size: 2rem;
+}
+.prevent .box-container .box p{
+	font-size: 1.4rem;
+	padding: 1rem;
+}
+.heading {
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+
+/*how it works end*/
+
 
 
 /*about*/
