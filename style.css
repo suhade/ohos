@@ -579,6 +579,45 @@ form .user-details .input-box{
   padding-bottom: 20px;
 }
 
+/*invest*/
+.invest {
+  padding: 10px 10px 10px 10px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.invest h1{
+  text-align: center;
+  text-decoration: underline;
+}
+.invest p{
+  font-size: 25px;
+}
+.invest span{
+  font-weight: bold;
+  color: #00cce4;
+  text-decoration: underline;
+}
+
+/*privacy*/
+.privacy{
+  padding: 10px 10px 10px 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.privacy h1{
+  text-align: center;
+
+}
+.privacy li{
+  list-style: none;
+}
+
+/*cookie*/
+.cookie{
+  padding: 10px 10px 10px 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 /*footer*/
 
