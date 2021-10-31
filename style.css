@@ -72,7 +72,17 @@ body, html{
 	align-items: center;
 	padding: 0 10vw 0 10vw;
 	height: 10vh;
-	padding-top: 260px;
+	padding-top: 160px;
+  display: flex;
+  margin: 17px;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  padding: 26px;
+  opacity: 5;
+  background: radial-gradient(circle, rgb(255, 255, 255), rgb(139, 250, 231));
 }
 
 .landingText h1{
@@ -81,10 +91,11 @@ body, html{
 }
 .landingText h3{
 	margin: 6px !important;
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 1.8;
-	padding-right: 20px;
+  padding: 20px 0 20px 0px ;
 }
+
 
 .landingText .btn{
 	width: 120px;
@@ -323,12 +334,32 @@ form .user-details .input-box{
   float: right;
 }
 /*account end*/
+/*Services*/
+
+.services{
+  height: 100vh;
+  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  padding: 26px;
+}
 /*how it works*/
 
 .used{
-	padding-top: 210px;
-	height: 70px;
-	padding-bottom: 210px;
+  
+  height: 100vh;
+  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  padding: 26px;
 }
 
 .prevent .box-container {
@@ -360,7 +391,8 @@ form .user-details .input-box{
 }
 .heading {
 	text-align: center;
-	text-decoration: underline;
+  font-weight: bold;
+  font-size: 33px;
 	
 }
 
@@ -618,6 +650,114 @@ form .user-details .input-box{
   padding-top: 100px;
   padding-bottom: 100px;
 }
+/*Featured doctors*/
+.col-3{
+	height: fit-content;
+	width: 230px;
+	margin: 26px;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	line-height: normal;
+	padding: 20px;
+	align-items: center;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+	transition: transform, 0.3s ease, (0, 0, 0.1);
+  
+  }
+
+  .col-3:hover{
+    box-shadow: 0 9px 9px 9px rgba(5, 211, 211, 0.2);
+    transform: scale(1.1);
+  }
+
+  .doctors-row{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+  }
+  
+  .doctors{
+	  padding: 16px;
+  }
+
+  .speciality{
+    font-size: 24px;
+    margin-top: -10px;
+  }
+  .price{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .rating {
+  text-align: center;
+  }
+  
+  .doctors-row img {
+  width: 150px;
+  height: 130px;
+  }
+
+ .buttons{
+   display: flex;
+   flex-direction: row;
+ }
+  .title{
+  text-align: center;
+  font-weight: bold;
+  padding: 35px;
+  font-size: 33px;
+  
+  }
+  .checked {
+    color: orange;
+  }
+  
+  .doctors-title {
+  color: hsl(0, 0%, 0%);
+  font-size: 27px;
+  font-weight: bold;
+  text-align: start;
+  }
+  
+  .btn1{
+  display: flex;
+  background: #00cce4;
+  color: #fff;
+  border-radius: 15px;
+  width: 50px;
+  font-size: 22px;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  transition: background 0.5s;
+  }
+  
+  .btn1:hover {
+  background: rgb(5, 36, 207);
+  transition: 0.5s;
+  }
+  
+  .btn1 i {
+  color: #fff;
+  padding: 30px;
+  letter-spacing: 5px;
+  font-size: 25px;
+  background: #00cce4;
+  
+  }
+  
+  .doctors a {
+  margin:27px;
+  }
+
+  .View{
+	  font-size: 25px;
+	  align-items: center;
+  }
 
 /*footer*/
 
