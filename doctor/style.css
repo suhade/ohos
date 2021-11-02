@@ -18,11 +18,15 @@ body{
 
 .navigation{
     position: fixed;
-    width: 300px;
+    width: 50%;
     height: 100%;
-    background: #737984;
+    background: linear-gradient(360deg, #00fafa, #025555);
     transition: 0.5s;
     overflow: hidden;
+    
+}
+.navigation img{
+    opacity: 5;
 }
 
 .navigation.active{
@@ -45,8 +49,8 @@ body{
     list-style: none;
     
 }
-.navigation ul li:hover{
-    background: #03a9f4;
+.navigation li:hover{
+    background-color: rgb(255, 255, 255);
 }
 .navigation ul li:nth-child(1):hover{
     background: transparent;
@@ -61,15 +65,15 @@ body{
     width: 100%;
     display: block;
     display: flex;
+    font-size: 15px;
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: left;
     
 }
 
 .navigation ul li a .icon{
     position: relative;
-    
     display: block;
     min-width: 50px;
     height: 60px;
@@ -79,8 +83,9 @@ body{
 
 .navigation ul li a .icon .fa{
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
+
 .navigation ul li a .title{
     position: relative;
    padding: 0 10px;
@@ -108,7 +113,7 @@ body{
 .main .topbar{
     display: flex;
     width: 100%;
-    background: #fff;
+    background: rgb(255, 255, 255);
     height: 60px;
     justify-content: space-between;
     align-items: center;
@@ -150,6 +155,7 @@ body{
 .search label input{
     height: 40px;
     width: 100%;
+    font-size: 1.2em;
     border-radius: 40px;
     padding: 5px 20px;
     padding-left: 35px;
@@ -159,6 +165,7 @@ body{
 
 .search label .fa{
     position: absolute;
+    font-size: 20px;
     left: 15px;
     top: 4px;
 }
@@ -191,27 +198,55 @@ body{
     grid-gap: 20px;
 }
 
-.cardBox .card {
+.card {
  position: relative;
- background: #fff;
- padding: 20px;
+ padding: 30px;
  display: flex;
  justify-content: space-between;
  cursor: pointer;
+ border-radius: 5px;
 }
 
-.cardBox .card .number{
+.card1{
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(27, 218, 100));
+    border: white;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+}
+.card2{
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(158, 23, 248));
+    border: white;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+}
+.card3{
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(5, 85, 233));
+    border: white;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+}
+.card4{
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(3, 246, 246));
+    border: white;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+}
+
+ .number{
     position: relative;
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: 500;
+    color: #000;
 }
 
-.cardBox .card .cardName {
-    color: #999;
+ .cardName {
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    font-weight: 700;
 }
 .cardBox .card .iconBox{
     font-size: 2.5em;
-    color: #03a9f4;
+    color: #000000;
 }
 
 .details {
@@ -290,21 +325,22 @@ body{
 }
 .status {
     position: relative;
+    background: rgb(3, 178, 190);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
     padding: 2px 4px;
-    background: #03a9f4;
-    color: #fff;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 300;
     letter-spacing: 1px;
 }
 
 .delivered {
-    background: green;
-    color: #fff;
-    border-radius: 18px;
-    font-size: 14px;
-    font-weight: 300;
+    background: rgb(1, 196, 1);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 4px;
 }
