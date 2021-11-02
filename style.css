@@ -112,7 +112,7 @@ text-align: center;
 }
 
 .landingText img {
-	width: 28vw;
+	width: 40%;
 }
 
 
@@ -402,9 +402,15 @@ form .user-details .input-box{
 /*how it works doctor*/
 
 .work{
-	padding-top: 210px;
-	height: 70px;
-	padding-bottom: 210px;
+	height: 100vh;
+  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 15px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  padding: 26px;
 }
 
 .prevent .box-container {
@@ -437,8 +443,19 @@ form .user-details .input-box{
 .heading {
 	text-align: center;
 	text-decoration: underline;
-	
 }
+ .doc-btn{
+  display: flex;
+  background: #00cce4;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 50px;
+  font-size: 22px;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  transition: background 0.5s;
+ }
 
 
 /*contacr*/
@@ -449,7 +466,7 @@ form .user-details .input-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFFBEE;
+    background-color: #ffffff;
     padding-bottom: 60px;
     padding-top: 60px;
 }
@@ -471,19 +488,30 @@ form .user-details .input-box{
 }
 
 .contact__right-side{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding:0 7.3% 0 4.7%;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  padding: 26px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  width: 40%;
+  opacity: 5;
+  border-radius: 10px;
 }
 
-.contact__title{
-    font-size: 100px;
-    font-family: 'Bellefair', serif;
-    font-weight: 400;
-    margin-bottom: 70px;
+.contact__right-side:hover{
+  box-shadow: 0 8px 16px 16px rgba(5, 211, 211, 0.2);
+  transform: scale(1.1);
+}
+
+.contactTitle{
+    font-size: 0px;
+    font-weight:600;
     text-transform: uppercase;
 }
 
@@ -548,10 +576,17 @@ form .user-details .input-box{
 
 
 .containe{
-	width: 80%;
-	display: block;
-	margin:auto;
-	padding-top: 100px;
+  display: flex;
+  height: 100vh;
+  line-height: 1.6;
+  background-color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  padding: 20px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
 }
 .containe .content-section{
     float: left;
@@ -559,16 +594,15 @@ form .user-details .input-box{
   }
 
   .containe .image-section img{
-    width: 40%;
     height: 400px;
     padding-left: 20px;
   }
   .containe .content-section .title{
     text-transform: uppercase;
     font-size: 28px;
+  
   }
   .containe .content-section .content h3{
-    margin-top: 20px;
     color:#5d5d5d;
     font-size: 21px;
   }
@@ -580,6 +614,10 @@ form .user-details .input-box{
   }
   .containe .content-section .content .button{
     margin-top: 30px;
+  }
+  .about-title{
+    font-size: 30px;
+    font-weight: 700;
   }
   .containe .content-section .content .button a{
     background-color: #00cce4;
@@ -600,15 +638,15 @@ form .user-details .input-box{
   .containe .content-section .social i{
     color:#00cce4;
     font-size: 30px;
-    padding:0px 10px;
+    padding:20px 20px 0 10px;
   }
   .containe .content-section .social i:hover{
-    color:#3d3d3d;
+    color:#000000;
   }
 
 .about{
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 10px;
+
 }
 
 /*invest*/
@@ -635,9 +673,20 @@ form .user-details .input-box{
   padding: 10px 10px 10px 10px;
   padding-top: 100px;
   padding-bottom: 100px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  padding: 20px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
 }
 .privacy h1{
   text-align: center;
+  color: #16e0d6;
+  padding: 20px;
 
 }
 .privacy li{
@@ -762,27 +811,37 @@ form .user-details .input-box{
 /*footer*/
 
 .footer{
-	height: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 20px;
-}
-.foot {
-	padding-top: 150px;
+  background-color: #000000;
 }
 
+.footer-div{
+  padding-top: 40px;
+}
+
+.footer-title{
+  color: white;
+}
 .footerlinks a{
 	margin: 20px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #000;
+	color: rgb(255, 255, 255);
+}
+
+.copyright{
+  color: rgb(255, 255, 255);
+  align-items: flex-start;
+  padding: 30px;
+  font-size: 20px;
 }
 .footerlinks .mainlink{
 	color: #00cce4;
 }
 .footer a:hover{
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 
 /*footer end*/

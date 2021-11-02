@@ -1,0 +1,21 @@
+
+.profile{
+
+  height: 100vh;
+  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  padding: 26px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  width: 60%;
+  opacity: 5;
+  border-radius: 10px;
+  overflow: hidden;
+    
+}
+
