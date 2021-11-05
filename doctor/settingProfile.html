@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<body>
+    <div class="contained">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                    <img src="../images/logo1.png" alt="" style="width: 70px; height: 70px;">
+                    <span class="title"><h2>Dashboard</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="doctorAdmin.html">
+                    <span class="icon"><i class="fa fa-bars"></i></span>
+                    <span class="title"><h2>Dashboard</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="patientList.html">
+                    <span class="icon"><i class="fa fa-users"></i></span>
+                    <span class="title"><h2>Patient</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="appointment.html">
+                    <span class="icon"><i class="fa fa-comments"></i></span>
+                    <span class="title"><h2>Appointment</h2></span>
+                    </a>
+                </li>
+				 <li>
+                    <a href="progress.html">
+                    <span class="icon"><i class="fa fa-comments"></i></span>
+                    <span class="title"><h2>Progress</h2></span>
+                    </a>
+                </li>
+				 <li>
+                    <a href="completed.html">
+                    <span class="icon"><i class="fa fa-comments"></i></span>
+                    <span class="title"><h2>Completed</h2></span>
+                    </a>
+                </li>
+				 <li>
+                    <a href="cancelled.html">
+                    <span class="icon"><i class="fa fa-comments"></i></span>
+                    <span class="title"><h2>Cancelled</h2></span>
+                    </a>
+                </li>
+				 <li>
+                    <a href="history.html">
+                    <span class="icon"><i class="fa fa-comments"></i></span>
+                    <span class="title"><h2>History</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="doctorHelp.html">
+                    <span class="icon"><i class="fa fa-info"></i></span>
+                    <span class="title"><h2>Help</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settingProfile.html">
+                    <span class="icon"><i class="fa fa-cogs"></i></span>
+                    <span class="title"><h2>Settings</h2></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="toggleMenu();">
+
+                </div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class="fa fa-search"></i>
+                    </label>
+                    <!--<div class="user">
+                        <img src="images/image.png"> 
+                    </div>-->
+
+                </div>
+            </div>
+
+
+
+            <!--details-->
+
+            <div class="details">
+               
+                    
+                   
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function toggleMenu(){
+            let toggle = document.querySelector('.toggle');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            toggle.changeList.toggle('active');
+            navigation.changeList.toggle('active');
+            main.changeList.toggle('active');
+        }
+    </script>
+</body>
+</html>
