@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -125,3 +126,132 @@ transform: scale(0.9);
 .card1{
     background-color: rgb(177, 247, 252);
 }
+=======
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.card-container{
+    height: fit-content;
+    width: 270px;
+    max-height: 100%;
+    margin: 5px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform, 0.3s ease;
+}
+
+
+.btn-primary{
+    width: fit-content;
+    margin: 20px;
+    align-items: center;
+}
+
+.review{
+    text-align: center;
+}
+
+.radios{
+    display: flex;
+    flex-direction: columns;
+    align-items: flex-start;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+
+}
+#newPatient{
+   margin-right: 10px;
+}
+
+#oldPatients{
+    margin-left: 10px;
+  
+}
+.charts{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-review{
+    height: auto;
+    max-height: 100%;
+    width: 50%;
+    margin: 10px;
+    margin-top: -13px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform, 0.3s ease;
+    box-sizing: border-box;
+}
+
+.groups{display: flex;
+align-items: center;
+flex-wrap: wrap;
+height: 100vh;
+width: 100%;
+font-size: 22px;
+padding: 6px;
+border-radius: 6px;
+margin: 17px;
+cursor: pointer;
+margin-top: 5px;
+box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+transition: transform, 0.3s ease;
+}
+
+.card-img-top{
+    padding: 20px;
+}
+.row:hover{
+box-shadow: 0 8px 16px 16px rgba(0, 255, 255, 0.2);
+transform: scale(0.9);
+}
+
+
+.patient-groups{
+     float: left;
+     padding: 20px;
+}
+.patients{
+    height: auto;
+    max-height: 100%;
+    width: 50%;
+    margin: 10px;
+    margin-top: -13px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform, 0.3s ease;
+}
+
+.card1{
+    background-color: rgb(177, 247, 252);
+}
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05

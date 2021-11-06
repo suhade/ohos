@@ -8,7 +8,15 @@ body, html{
 *{
 	text-decoration: none !important;
 }
+<<<<<<< HEAD
 
+=======
+.wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 .nav{
 	position: fixed;
 	z-index: 1000;
@@ -64,14 +72,49 @@ body, html{
 	color: #000;
 }
 
+<<<<<<< HEAD
 /* Landing css */
+=======
+.wrapper button{
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #00cce4;
+  border-radius: 5px;
+  border-color: #16e0d6;
+  align-items: center;
+  overflow: hidden;
+  margin: 20px;
+  width: auto;
+  width: fit-content;
+  text-align: center;
+  
+  
+}
+
+.wrapper button:hover{
+  background-color: #06ecbb;
+  border-color: #06ecbb;
+  box-shadow: #00ff80;
+}
+
+/* Landing css */
+.landingD{
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 .landing{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+<<<<<<< HEAD
 	padding: 0 10vw 0 10vw;
 	height: 10vh;
+=======
+  height: 100%;
+	padding: 0 10vw 0 10vw;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 	padding-top: 160px;
   display: flex;
   margin: 17px;
@@ -99,6 +142,10 @@ body, html{
 
 .landingText .btn{
 	width: 120px;
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 	margin-top: 10px;
 	padding: 14px 20px 12px 20px;
 	background-color: #00cce4;
@@ -115,6 +162,15 @@ text-align: center;
 	width: 40%;
 }
 
+<<<<<<< HEAD
+=======
+.landingImage img{
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 
 .banner{
 	
@@ -335,10 +391,22 @@ form .user-details .input-box{
 }
 /*account end*/
 /*Services*/
+<<<<<<< HEAD
 
 .services{
   height: 100vh;
   line-height: 1.6;
+=======
+.servicesD{
+  width: 100%;
+  height: 100%;
+}
+.services{
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+  height: 100%;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
   font-family: 'IBM Plex Sans', sans-serif;
   align-items: center;
   margin: 17px;
@@ -347,8 +415,17 @@ form .user-details .input-box{
   justify-content: space-around;
   padding: 26px;
 }
+<<<<<<< HEAD
 /*how it works*/
 
+=======
+
+/*how it works*/
+.usedD{
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 .used{
   
   height: 100vh;
@@ -356,12 +433,26 @@ form .user-details .input-box{
   font-family: 'IBM Plex Sans', sans-serif;
   align-items: center;
   margin: 17px;
+<<<<<<< HEAD
+=======
+  height: 100%;
+  overflow: hidden;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
   transition: transform, 0.3s ease;
   justify-content: space-around;
   padding: 26px;
 }
 
+<<<<<<< HEAD
+=======
+.prevent{
+  width: 100%;
+  
+
+}
+
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 .prevent .box-container {
 	display: flex;
 	align-items: center;
@@ -400,13 +491,25 @@ form .user-details .input-box{
 /*how it works end*/
 
 /*how it works doctor*/
+<<<<<<< HEAD
 
+=======
+.workD{
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 .work{
 	height: 100vh;
   line-height: 1.6;
   font-family: 'IBM Plex Sans', sans-serif;
   align-items: center;
   margin: 15px;
+<<<<<<< HEAD
+=======
+  height: 100%;
+  overflow: hidden;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
   transition: transform, 0.3s ease;
   justify-content: space-around;
@@ -577,6 +680,7 @@ form .user-details .input-box{
 
 .containe{
   display: flex;
+<<<<<<< HEAD
   height: 100vh;
   line-height: 1.6;
   background-color: #ffffff;
@@ -587,6 +691,20 @@ form .user-details .input-box{
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
   transition: transform, 0.3s ease;
   justify-content: space-around;
+=======
+  flex-direction: row;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+  height: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  margin: 17px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform, 0.3s ease;
+  justify-content: space-around;
+  padding: 26px;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 }
 .containe .content-section{
     float: left;
@@ -594,8 +712,14 @@ form .user-details .input-box{
   }
 
   .containe .image-section img{
+<<<<<<< HEAD
     height: 400px;
     padding-left: 20px;
+=======
+    max-width: 100%;
+  height: auto;
+  padding: 10px;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
   }
   .containe .content-section .title{
     text-transform: uppercase;
@@ -645,7 +769,13 @@ form .user-details .input-box{
   }
 
 .about{
+<<<<<<< HEAD
   padding: 10px;
+=======
+   width: 100%;
+  height: 100%;
+
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 
 }
 
@@ -683,6 +813,12 @@ form .user-details .input-box{
   transition: transform, 0.3s ease;
   justify-content: space-around;
 }
+<<<<<<< HEAD
+=======
+.terms{
+  width: 100%;
+}
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
 .privacy h1{
   text-align: center;
   color: #16e0d6;
@@ -725,6 +861,10 @@ form .user-details .input-box{
   .doctors-row{
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> 16eb6859073bd5718a10fda1037246a08f256f05
   
   
   }
